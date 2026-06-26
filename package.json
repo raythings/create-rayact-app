@@ -27,8 +27,8 @@
     "type": "git",
     "url": "git+https://github.com/raythings/create-rayact-app.git"
   },
-  "homepage": "https://github.com/raythings/create-rayact-app#readme",
+  "homepage": "https://github.com/raythings/rayact#readme",
   "bugs": {
-    "url": "https://github.com/raythings/create-rayact-app/issues"
+    "url": "https://github.com/raythings/rayact/issues"
   }
 }

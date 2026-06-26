@@ -67,6 +67,7 @@ function depBlock(
     },
     devDependencies: {
       '@rayact/cli': gh('rayact-cli'),
+      '@rayact/dev-server': gh('rayact-dev-server'),
       '@types/react': '^19.0.0',
       '@vitejs/plugin-react': '^5.1.1',
       'react-refresh': '^0.18.0',
