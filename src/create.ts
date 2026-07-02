@@ -148,6 +148,13 @@ export function createRayactApp(options: CreateOptions): void {
     description: 'Rayact app',
     scripts: {
       dev: 'rayact dev',
+      // Expo Go path: install + launch the prebuilt dev app on a device/simulator.
+      'dev-app:android': 'rayact dev-app --android',
+      'dev-app:ios': 'rayact dev-app --ios-simulator',
+      // expo-dev-client path: scaffold native shells once, then build your own dev client.
+      prebuild: 'rayact prebuild',
+      'dev-client:android': 'rayact build --debug --android --install',
+      'dev-client:ios': 'rayact build --debug --ios --install',
       build: 'rayact build --release',
       'build:desktop': 'rayact build --release --desktop',
       'build:android': 'rayact build --release --android',
